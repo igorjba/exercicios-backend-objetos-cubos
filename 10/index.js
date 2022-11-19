@@ -20,4 +20,8 @@ patricia.carrinho.push({ item: caboUsb, quantidade: 2 }, { item: carregador, qua
 renato.carrinho.push({ item: webcam, quantidade: 5 });
 roberto.carrinho.push({ item: webcam, quantidade: 1 }, { item: caboUsb, quantidade: 2 }, { item: monitor, quantidade: 1 });
 
+console.log(JSON.stringify(patricia));
+console.log(JSON.stringify(carlos));
+console.log(JSON.stringify(renato));
 console.log(JSON.stringify(jose));
+console.log(JSON.stringify(roberto));
