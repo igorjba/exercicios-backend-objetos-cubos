@@ -1,3 +1,4 @@
+// clientes
 const patricia = { nome: "Patricia", carrinho: [] }
 const carlos = { nome: "Carlos", carrinho: [] }
 const renato = { nome: "Renato", carrinho: [] }
@@ -20,8 +21,16 @@ patricia.carrinho.push({ item: caboUsb, quantidade: 2 }, { item: carregador, qua
 renato.carrinho.push({ item: webcam, quantidade: 5 });
 roberto.carrinho.push({ item: webcam, quantidade: 1 }, { item: caboUsb, quantidade: 2 }, { item: monitor, quantidade: 1 });
 
-console.log(JSON.stringify(patricia));
-console.log(JSON.stringify(carlos));
-console.log(JSON.stringify(renato));
-console.log(JSON.stringify(jose));
-console.log(JSON.stringify(roberto));
+
+console.log(patricia.carrinho);
+console.log(carlos.carrinho);
+console.log(renato.carrinho);
+console.log(jose.carrinho);
+console.log(roberto.carrinho);
+
+// console.log(JSON.stringify(patricia));
+// console.log(JSON.stringify(carlos));
+// console.log(JSON.stringify(renato));
+// console.log(JSON.stringify(jose));
+// console.log(JSON.stringify(roberto));
+
