@@ -32,6 +32,8 @@ const livro = {
 }
 
 for (let i = 0; i < livro.capitulos.length; i++) {
-    livro.capitulos[i]["numero"] = i + 1;
+    livro.capitulos[i].numero = i + 1;
 }
+
+// se não tiver o numero, ele cria um
 console.log(livro);
